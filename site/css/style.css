@@ -1,6 +1,7 @@
 body {
-	background-image: url("http://www.jmk-innovation.se/wp-content/uploads/2014/07/P1020713.jpg");
-    background-color: #cccccc;
+	/*background-image: url("http://www.jmk-innovation.se/wp-content/uploads/2014/07/P1020713.jpg");
+    background-color: #cccccc;*/
+    background-color: #c5c5c5;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -12,17 +13,20 @@ body {
 	justify-content: center;
 }
 .menu a{
-	background-color: #c3c3c3;
+	background-color: #55d737;
 	border: 1px solid black;
+	border-radius: 5px;
 	padding: 0.5em;
-	margin: 0.1em;
+	margin: 0.5em;
 	display: block;
 	text-decoration: none;
+	color: black;
+	font-size: 20px;
 }
 
 .menu a:hover{
 	background-color: #696868;
-	color: #176EA2;
+	color: white;
 
 }
 
@@ -31,6 +35,6 @@ body {
 }
 
 .menu a:active{
-	background-color: #090E1F;
+	background-color: blue;
 	color: #FF8300;
 }
