@@ -18,7 +18,12 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	width: 600px; 
-	height: 500px;
+	height: 400px;
+}
+.fixed-menu{
+	position: fixed;
+    top: 164px;
+    width: 100%;
 }
 .menu {
 	display: flex;
@@ -27,7 +32,7 @@ body {
 }
 .menu a{
 	text-align: center;	
-	background-color: rgba( 83,215, 55, 0.5);
+	background-color: rgba( 0,0, 0, 0.5);
 	width: 100%;
 	max-width: 1280px;
 	border: 1px solid black;
@@ -35,7 +40,7 @@ body {
 	padding: 0.5em;
 	display: block;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 30px;
 
 }
