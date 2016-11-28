@@ -1,3 +1,6 @@
+html{
+	overflow-y: scroll;
+}
 body {
     background-color: #c5c5c5;
 	display: flex;
