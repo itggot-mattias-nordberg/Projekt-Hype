@@ -22,11 +22,13 @@ body {
 	margin-left: auto;
 	width: 500px; 
 	height: 240px;
+
 }
 .menu {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	z-index: 2;
 }
 .menu a{
 	text-align: center;	
@@ -53,4 +55,31 @@ body {
 .menu a:active{
 	background-color: blue;
 	color: #FF8300;
+}
+
+.about-us {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.about-text{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-right: 400px;
+}
+
+.pics{ 
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 20px;
+	margin-right: 200px;	
+ }
+
+.us {
+
 }
