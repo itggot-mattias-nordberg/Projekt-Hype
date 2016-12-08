@@ -102,9 +102,10 @@ body {
 .NewsLåda{
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: center;
 	margin-left: 100px;
 	margin-right: 100px;
+	background-color: black;
 }
 
 .NewsHeader {
