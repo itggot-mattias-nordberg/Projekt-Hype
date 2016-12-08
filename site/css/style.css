@@ -98,3 +98,39 @@ body {
 	width: 400px;
 	height: 400px;
 }
+
+.NewsLåda{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.NewsHeader {
+	flex-grow: 2;
+	background-color: yellow;
+
+}
+
+.NewsInnehåll1 {
+	flex-grow: 5;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.NewsInnehåll2 {
+	flex-grow: 5;
+	background-color: red;
+}
+
+.NewsText {
+	flex-grow: 1;
+	background-color: green;
+}
+
+.NewsBild {
+	flex-grow: 1;
+	background-color: black;
+}
