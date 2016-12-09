@@ -132,4 +132,50 @@ th < td{
 	margin-right: 250px;
 	text-align: center;
 }
+/*
+body {
+	background-color: white;
 
+}
+.allt{
+	height: 40em;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.uppe{ 
+	flex-grow: 3;
+	background-color: gray;
+ }
+.övre_mid{
+	margin: 5px;
+	width: 50em;
+	flex-grow: 1;
+	background-color: gray;
+}
+.nere_mid{
+	flex-grow: 4;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.nere_mid_v{
+	margin-right: 8px;
+	flex-grow: 1;
+	background-color: gray;
+}
+.nere_mid_h{
+	flex-grow: 3;
+	background-color: gray;
+}
+.nere{
+	flex-grow: 3;
+	background-color: gray;
+}
+
+.uppe, .nere_mid, .nere{
+	width: 50em;
+	height: 8em;
+	margin: 4px;
+}*/
